@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#zuri1 {
+  font-size: 20px;
+  color: black;
+  margin-left: 10%;
+} 
+
+#zuri2, #zuri3 {
+  color: #000000;
+  font-weight: 300;
+  margin: 10px 0;
+  line-height: 1.2;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Times New Roman", serif;
+  font-size: 60px;
+}
+
+#zuri4 {
+  font-family: "lato", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 10px 0;
+  line-height: 1.2;
+  color: black;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+#zuri5 {
+  border-radius: 6px;
+  padding: 10px 10px;
+  background: rgb(192, 76, 40);
+  border: none;
+  text-align: center;
+  color: hsl(0, 0%, 95%);
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  margin-left: 45%;
+  margin-top: 5%;
+}
+
+#proj {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  font-family: "Times New Roman", serif;
+  margin: 5%;
+}
+
+.intro {
+  height: 500px;
+  margin: 50px 5px;
+}
+
+.project {
+  background-image: url("https://res.cloudinary.com/admiral-ng/image/upload/v1665617037/WIN_20220904_11_38_34_Pro_3_ykdtd7.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  height: 800px;
+}
+
+.parent {
+  margin: 10px;
+  padding: 2rem 2rem;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  margin: 10px;
+  background-color: black;
+  height: 200px;
+  width: 500px;
+}
+
+.showcase {
+  height: 800px;
+}
+
+.grid-item-2 {
+    width: 120%;
+    height: 120%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+  }
+
+/* // White text to be used, needs to be changed */
+
+body {
+    font-family: "lato", sans-serif;
+    color: hsl(0, 0%, 95%);
+  }
+  
+  /*// Make all link text black with no text decoration */
+  a {
+    color: hsl(0, 0%, 95%);
+    text-decoration: none;
+  }
+  
+  
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.2;
+  }
+  
+  
+  h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+  }
+  .prog {
+    background-color: rgb(192, 76, 40);
+    width: 100%;
+  }
+  
+  p {
+    font-size: 30px;
+  }
+  
+  /*// All images must not be larger than parent container */
+  img {
+    width: 60%;
+  }
+  
+  /* No styling on list items */
+  li {
+    list-style-type: none;
+  }
+  
+  
+  
+  p {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  /*// Centers it, sets a maximum width and makes sure elements can flow past it*/
+
+.container {
+    max-width: auto;
+    overflow: hidden;
+/*     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    float: left; */
+  }
+
+  /*// Sets background color, height and padding*/
+
+.navbar {
+    background-color: rgb(192, 76, 40);
+    height: 70px;
+    padding: 0 30px;
+  }
+
+  /*// Sets font size, reduces font-weight, adds margin and line height */
+
+.navbar h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+  }
+
+  /*// Set the display to flex, elements align side by side. Then justify 
+  content, adding a considerable space between each item using the 
+  space between value. We align the items to appear at the center (middle) 
+  of the container and set its height to take up the entire container. */
+
+.navbar .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .navbar ul {
+    display: flex;
+  }
+  
+  /*// Changes the color of both links to white, adds padding between them and margin as well */
+  
+  .navbar a {
+    color: white;
+    padding: 9px;
+    margin: 0 10px;
+  }
+
+  .navbar a:hover {
+    color: #000000;
+    border-bottom: 3px solid #000000;
+  }
+
+  .showcase {
+    height: 600px;
+    background-color: black;
+  }
+
+  /*// Adds margin below the text */
+.showcase p {
+    margin-bottom: 30px;
+  }
+  
+  /*// Adds a shadow below the image */
+  .showcase img {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+  }
+  
+  /*// Adds some padding on the form content */
+  .showcase-form {
+    padding-left: 7px;
+  }
+
+/* for the reg form */
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em;
+}
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+  fieldset:last-of-type {
+    border-bottom: none;
+}
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+
+  .grid {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+.grid-item-1,
+.grid-item-2 {
+  position: relative;
+  top: 50px;
+}
+
+.showcase input[type='email'] {
+    padding: 10px 70px 10px 0;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 6px;
+  }
+
+#emailbtn {
+  margin-top: 20px;
+}
+  
+  .btn {
+    border-radius: 6px;
+    padding: 12px 20px;
+    background: rgb(192, 76, 40);;
+    border: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .showcase-form {
+    margin: auto;
+  }
+  
+  /*// Change typeface and its size */
+  .little-info {
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+  }
+
+  /*// Centers the container, sets a maximum width */
+.lower-container {
+  margin: 120px auto;
+  padding: 0;
+  max-width: 1400px;
+  text-align: center;
+}
+
+
+/*// Targets all h3 with class of title */
+.title {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  
+  /*// Targets the paragraphs with class name of text */
+  .text {
+    color: black;
+    font-size: 19px;
+    width: 100%;
+    padding: 10px;
+    margin: 0, 20px;
+    text-align: justify;
+  }
+  
+  /*// Display horizontally, put a little space around them */
+.flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /*// Add some padding around the container. Align text centrally */
+  .stats {
+    padding: 45px 50px;
+    text-align: center;
+  }
+  
+  /*// Set margin and width */
+  .stat {
+    margin: 0 30px;
+    text-align: center;
+    width: 800px;
+  }
+
+  .stats .fa {
+    color: rgb(192, 76, 40);
+  }
+
+  .testimonial {
+    color: black;
+    padding: 40px;
+  }
+
+  /*// Wrap the image inside a cirle shape and set height to take up all of parent element */
+
+.testimonial img {
+    height: 100%;
+    width: 100%;
+    clip-path: circle();
+}
+
+/*// Align text centrally */
+
+.testimonial h3{
+  text-align: center;
+}
+
+/*// Create a grid of three equal columns. Set a gap of 40 px between them */
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+  
+  
+  /*// Create a white card with some shadow around it */
+  .card {
+    padding: 10px;
+    background-color: rgb(192, 76, 40);;
+    border-radius: 10px;
+    box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2),
+                 7px  7px 20px rgba(0, 0, 0, 0.2)
+  }
+
+  
+  .circle {
+    background-color: transparent;
+    border:3px solid rgb(0, 0, 0);
+    height:90px;
+    position: relative;
+    top: -30px;
+    left: 120px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:90px;
+}
+
+/*// Add padding around the footer as well */
+
+footer {
+    background-color: rgb(192, 76, 40);
+    padding: 20px 10px;
+  }
+  
+  /*// Sets all link texts to white and puts margin to the left and right */
+  
+  footer a {
+    color: #ffffff;
+    margin: 0 10px;
+  }
+
+  footer a:hover {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+  }
+
+  /*// Tablets and Under */
+
+@media screen and (max-width: 768px) {
+  .grid,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+  .image {
+    width: 300px;
+    margin-left: 10px;
+  }
+  .stats .flex {
+    flex-direction: column;
+  }
+  .stats {
+    text-align: center;
+  }
+  .stat {
+    width: 100%;
+    padding-right: 80px;
+  }
+  .circle {
+      background-color: transparent;
+      border:3px solid rgb(0, 0, 0);
+      height:90px;
+      position: relative;
+      top: -30px;
+      left: 270px;
+      border-radius:50%;
+      -moz-border-radius:50%;
+      -webkit-border-radius:50%;
+      width:90px;
+  }
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      margin: 0;        
+    }
+  footer {
+      align-items: center;
+      height: 20vh;
+      margin: 0;
+    }
+
+
+  
+    div[class~="container"] {
+      height: 1px;
+      width: 1px;
+      overflow: hidden;
+      white-space: nowrap;      
+    }
+  }
+
+@media screen and (max-width: 1440px) {
+    .navbar {
+      height: 100%;
+      widows: 100%;
+    }
+    .intro {
+      height: 100%;
+      widows: 100%;
+    }
+    .project {
+      height: 100%;
+      widows: 100%;
+    }
+
+    .navbar .flex {
+      flex-direction: column;
+    }
+
+    .navbar a:hover {
+      color: rgb(0, 0, 0);
+      border-bottom: 2px solid black;
+    }
+  .navbar ul {
+    background: rgb(192, 76, 40);
+    border-radius: 5px;
+    padding: 10px 0;
+  }
+  .showcase {
+    height: 800px;
+    text-align: center;
+  }
+.little-info {
+    font-size: 13px;
+  }
+  .image {
+    width: 350px;
+    margin-left: 70px;
+  }
+
+  .stat {
+    margin-bottom: 40px;
+  }
+/* .circle {
+      background-color: transparent;
+      border:3px solid rgb(0, 0, 0);
+      height:90px;
+      position: relative;
+      top: -30px;
+      left: 150px;
+      border-radius:50%;
+      -moz-border-radius:50%;
+      -webkit-border-radius:50%;
+      width:90px;
+  } */
+
+}
