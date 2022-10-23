@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1a1c28;
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-template-areas: 
+    "a a b"
+    "c d d"
+    "c e e"
+    ;
+    gap: 1.6vh;
+    width: 50%;
+    margin: auto;
+}
+
+main div {
+    text-align: center;
+}
+
+.orange {
+    background-color: #eb5020;
+    grid-area: a;
+    height: 20vh;
+}
+
+.yellow {
+    background-color: #ffa401;
+    grid-area: b;
+    height: 20vh;
+}
+
+.green {
+    background-color: #05aa42;
+    grid-area: c;
+    height: 21.6vh;
+}
+
+.ocean {
+    background-color: #01aefd;
+    grid-area: d;
+    height: 10vh;
+}
+
+.oceania {
+    background-color: #01aefd;
+    grid-area: e;
+    height: 10vh;
+}
